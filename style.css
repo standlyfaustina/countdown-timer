@@ -24,6 +24,8 @@ h1{
 
 .countdown-container{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .big-text{
@@ -34,7 +36,7 @@ h1{
 }
 
 .countdown-el{
-    align-items: center;
+    text-align: center;
 
 }
 
